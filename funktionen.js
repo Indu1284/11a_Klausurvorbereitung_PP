@@ -13,12 +13,21 @@
 // console.log(typeof a);
 
 /* Arrays */
+/* Aufgabe eines*/
 
-// let arr;
-// arr = new Array();
+let testArr;
+testArr = new Array();
+testArr = ["apple","bat","cat","dog"];
+console.log(testArr[testArr.length-1]);
+
+/* Aufgabe eines*/
+
+////let arr;
+//arr = new Array();
 // arr = [];
 // arr = [false,true,false,false];
-// arr = ["a","b","c","d"];
+//arr = ["apple","bat","cat","dog"];
+//console.log(arr);
 
 // // Index beginnt mit 0
 // console.log(arr);
@@ -61,6 +70,22 @@
 // console.log(obj);
 // console.log(obj.val0);
 // console.log(obj.sub1.val1);
+/* aufgabe 2
+var struc =
+{
+level1:
+{
+level2:
+{
+param1: 3.14,
+param2: 10.01
+}
+}
+};
+
+console.log(struc.level1.level2.param1);
+console.log(struc.level1.level2.param2);
+console.log(struc.level1.level2);*/
 
 /*DOM*/
 // DOM  --> Modell der HTMl-Struktur
