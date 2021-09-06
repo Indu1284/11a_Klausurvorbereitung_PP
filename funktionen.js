@@ -14,11 +14,10 @@
 
 /* Arrays */
 /* Aufgabe eines*/
-
-let testArr;
-testArr = new Array();
-testArr = ["apple","bat","cat","dog"];
-console.log(testArr[testArr.length-1]);
+let arr;
+arr = new Array();
+arr = [false,true,false,false];
+console.log(arr[0]);
 
 /* Aufgabe eines*/
 
@@ -70,21 +69,22 @@ console.log(testArr[testArr.length-1]);
 // console.log(obj);
 // console.log(obj.val0);
 // console.log(obj.sub1.val1);
-/* aufgabe 2
-var struc =
+//aufgabe 2
+let obj =
 {
 level1:
 {
+param1: 12,
 level2:
 {
-param1: 3.14,
-param2: 10.01
+param2: 24
 }
 }
 };
 
-console.log(struc.level1.level2.param1);
-console.log(struc.level1.level2.param2);
+console.log(obj.level1.param1);
+console.log(obj.level1.level2.param2);
+/*
 console.log(struc.level1.level2);*/
 
 /*DOM*/
